@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Register</title>
+</head>
+
+<body>
+
+<header>
+    <h2 class="logo">Logo</h2>
+    <nav class="navigation">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contacts</a>
+        <button class="btnLogin-popup">Login</button>
+    </nav>
+</header>
+
+<div class="wrapper register-active">
+        <span class="icon-close">
+            <ion-icon name="close"></ion-icon>
+        </span>
+
+    <!-- Register Form -->
+    <div class="form-box register">
+        <h2>Register</h2>
+        <form id="registerForm">
+
+            <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="person"></ion-icon>
+                    </span>
+                <input type="text" id="username" required placeholder="Username">
+            </div>
+
+            <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="mail"></ion-icon>
+                    </span>
+                <input type="email" id="email" required placeholder="Email">
+            </div>
+
+            <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="lock"></ion-icon>
+                    </span>
+                <input type="password" id="password" required placeholder="Password">
+            </div>
+
+            <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="lock"></ion-icon>
+                    </span>
+                <input type="password" required placeholder="Confirm Password">
+            </div>
+
+            <div class="remember-forgot">
+                <label>
+                    <input type="checkbox" required>
+                    I agree to the terms & conditions
+                </label>
+            </div>
+
+            <button type="submit" class="btn">Register</button>
+
+            <div class="login-register">
+                <p>Already have an account?
+                    <a href="login-page.html" class="login-link">Login</a>
+                </p>
+            </div>
+
+        </form>
+    </div>
+</div>
+
+<script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+<script src="register.js"></script>
+<script src="login.js"></script>
+
+</body>
+
+</html>
